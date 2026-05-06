@@ -25,6 +25,7 @@ public class HashMap_LinkedHashMap_treeMap
         linkedHashMap.put(1, "D");
         System.out.println(linkedHashMap);
         
+        //TreeMap
         Map<Integer, String> treeMap = new TreeMap<>(); //sorts key automatically
         treeMap.put(4, "A");
         treeMap.put(3, "B");

@@ -5,9 +5,12 @@ import java.util.ArrayList;
 public class BasicCollectionExample
 {
 	public static void main(String[] args) {
+		
+		//Maintains insertion order, allows duplicates
 		ArrayList<String> names=new ArrayList();
 		names.add("James");
 		names.add("John");
+		names.add("Jack");
 		names.add("Jack");
 		
 		System.out.println(names); //print the collection
